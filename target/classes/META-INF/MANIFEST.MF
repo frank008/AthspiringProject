@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: athsipringFrank
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: weimingfa
+Implementation-Vendor-Id: Athspiring2018
+Build-Jdk: 1.8.0_131
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/athsipringFrank
+Created-By: Maven Integration for Eclipse
+
