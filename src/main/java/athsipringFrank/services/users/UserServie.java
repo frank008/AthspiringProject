@@ -1,39 +1,17 @@
 package athsipringFrank.services.users;
 
+import athsipringFrank.dao.User;
+
 public interface UserServie {
+
+	/* (non-Javadoc)   添加用户
+	 * @see athsipringFrank.services.users.UserServie#add(java.lang.String, java.lang.String)
+	 */
+	int add(User user);
+
+	int deleteByName(String username);
+
+	Integer getUserCount();
 	
-
-/**新增一个用户
- * @param username
- * @param password
- */
-void  add(String username,String password);
-
-/**根据用户名删除用户
- * @param username
- */
-void deleteByName(String username);
-
-/** 获取用户总数
- * @return
- */
-Integer getUserCount();
-
-/** 查询用户信息
- * @param name
- * @param password
- */
-void queryUser(String name,String password);
-
-
-/** 查询用户邮箱
- * @param email
- */
-void queryEmail(String email);
-
-
-/**查询用户电话
- * @param phone
- */
-void queryPhone(String  phone);
+	User   queryUser( String username,String password);
 }
